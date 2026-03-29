@@ -363,6 +363,219 @@
         "blob/f7eb6f719b45fc0d242672b0080401e82871839a.nq.gz",
         "blob/32118d4d8476c012689b87e54913a898399eb060.nq.gz",
         "blob/036dd716aa4f16b20b2adc5858990f942e4b2d73.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b.nq.gz",
+      "repolex": "aggregate/repolex/d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b.nq.gz",
+      "dep": "dep/d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-simple",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-nop",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-jdk14",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-jdk-platform-logging",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-log4j12",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-reload4j",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-ext",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:jcl-over-slf4j",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:log4j-over-slf4j",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:jul-to-slf4j",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:osgi-over-slf4j",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.text",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.lang.reflect",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.logging:java.util.logging",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.felix:org.apache.felix.main",
+          "ecosystem": "MAVEN",
+          "version": "5.6.1",
+          "githubOrg": "apache",
+          "githubRepo": "asf?p=felix-dev",
+          "githubUrl": "https://github.com/apache/asf?p=felix-dev",
+          "source": "lsp",
+          "install_path": "/org.apache.felix.main-5.6.1.jar/org.apache.felix.main/AutoProcessor.class"
+        },
+        {
+          "packageName": "java.base:java.security",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:javax.swing",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:java.awt",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
