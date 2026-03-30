@@ -1561,6 +1561,51 @@
         "blob/f7eb6f719b45fc0d242672b0080401e82871839a.nq.gz",
         "blob/32118d4d8476c012689b87e54913a898399eb060.nq.gz",
         "blob/036dd716aa4f16b20b2adc5858990f942e4b2d73.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/a8f066010596dcbef1291b14353ca5e3fc190bd7.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a8f066010596dcbef1291b14353ca5e3fc190bd7.nq.gz",
+      "repolex": "aggregate/repolex/a8f066010596dcbef1291b14353ca5e3fc190bd7.nq.gz",
+      "dep": "dep/a8f066010596dcbef1291b14353ca5e3fc190bd7.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "3.8.1",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.logging:java.util.logging",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.xml.crypto:com.sun.org.slf4j.internal",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
