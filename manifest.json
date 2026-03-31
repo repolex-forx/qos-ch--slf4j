@@ -15448,6 +15448,119 @@
         "blob/036dd716aa4f16b20b2adc5858990f942e4b2d73.nq.gz",
         "blob/490315504c3c11d95480a1607d9810c32250556a.nq.gz",
         "blob/ba2aff148a29860acccc399e7cbe306488f0d3ad.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/58e6b11530ab61312326b4d5f4bf43900797d650.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/58e6b11530ab61312326b4d5f4bf43900797d650.nq.gz",
+      "repolex": "aggregate/repolex/58e6b11530ab61312326b4d5f4bf43900797d650.nq.gz",
+      "dep": "dep/58e6b11530ab61312326b4d5f4bf43900797d650.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "3.8.1",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-jdk14",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "ch.qos.cal10n:cal10n-api",
+          "ecosystem": "MAVEN",
+          "version": "0.8.1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "cal10n",
+          "githubCommit": "3dd668da2c610c9da32f2d4b3115644577574f12",
+          "githubTag": "v_0.8.1",
+          "githubUrl": "https://github.com/qos-ch/cal10n",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.xml.crypto:com.sun.org.slf4j.internal",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.logging:java.util.logging",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.text",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:javax.swing",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.security",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:java.awt",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
