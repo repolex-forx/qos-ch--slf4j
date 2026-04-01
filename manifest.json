@@ -38775,6 +38775,122 @@
         "blob/d71f94cbcf5fda8a85f9d7bcc0d13f6a8a3a677f.nq.gz",
         "blob/ba2aff148a29860acccc399e7cbe306488f0d3ad.nq.gz",
         "blob/c78e87423c99123980cb2f2668c27cf7295ae149.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/88333f50effb1bb618847b0901b2a1e43e86d9c8.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/88333f50effb1bb618847b0901b2a1e43e86d9c8.nq.gz",
+      "repolex": "aggregate/repolex/88333f50effb1bb618847b0901b2a1e43e86d9c8.nq.gz",
+      "dep": "dep/88333f50effb1bb618847b0901b2a1e43e86d9c8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.13.2",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-jdk14",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "ch.qos.cal10n:cal10n-api",
+          "ecosystem": "MAVEN",
+          "version": "0.8.1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "cal10n",
+          "githubCommit": "3dd668da2c610c9da32f2d4b3115644577574f12",
+          "githubTag": "v_0.8.1",
+          "githubUrl": "https://github.com/qos-ch/cal10n",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.text",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.security",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.logging:java.util.logging",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:javax.swing",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:java.awt",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.felix:org.apache.felix.main",
+          "ecosystem": "MAVEN",
+          "version": "2.0.2",
+          "githubOrg": "apache",
+          "githubRepo": "asf?p=felix-dev",
+          "githubUrl": "https://github.com/apache/asf?p=felix-dev",
+          "source": "lsp",
+          "install_path": "/org.apache.felix.main-2.0.2.jar/org.apache.felix.main/AutoProcessor.class"
+        }
       ]
     }
   ],
