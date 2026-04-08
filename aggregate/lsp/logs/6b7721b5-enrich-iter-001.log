@@ -1,0 +1,32 @@
+[2026-04-08T14:28:59Z] === ENRICH ITERATION 1 START | repo=qos-ch/slf4j sha=6b7721b5 ===
+[2026-04-08T14:28:59Z] [iter=1] PHASE START: enrich repo=qos-ch/slf4j sha=6b7721b5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6b7721b5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz
+[2026-04-08T14:29:05Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-08T14:29:11Z] [iter=1] AST store loaded triples=864238 load_secs=6 mem_mb=844 MB
+[2026-04-08T14:29:11Z] [iter=1] Step 2: Finding LSP targets mem_mb=844 MB
+[2026-04-08T14:29:13Z] [iter=1] LSP targets found call_sites=6851 imports=855 extends=51 implements=0 secs=2
+[2026-04-08T14:29:15Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=844 MB
+[2026-04-08T14:29:19Z] [iter=1] Position index built positions=59445 nodes_with_types=72081 secs=5 mem_mb=844 MB
+[2026-04-08T14:29:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=844 MB already_completed_types=[] already_completed_files=0
+[2026-04-08T14:29:19Z] [iter=1] Resolving target type target_type=call_site count=6851
+[2026-04-08T14:36:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=1 resolved=183 errors=1280 current=slf4j-site/src/site/pages/js/prettify.js
+[2026-04-08T14:37:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=2 resolved=197 errors=1449 current=slf4j-site/src/site/pages/templates/header.js
+[2026-04-08T14:38:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=7 resolved=249 errors=1478 current=slf4j-simple/src/main/java/org/slf4j/impl/SimpleLogger.java
+[2026-04-08T14:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=8 resolved=262 errors=1575 current=slf4j-ext/src/main/java/org/slf4j/ext/LoggerWrapper.java
+[2026-04-08T14:39:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=9 resolved=262 errors=1751 current=slf4j-api/src/test/java/org/slf4j/helpers/MessageFormatterTest.java
+[2026-04-08T14:40:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=10 resolved=351 errors=1895 current=slf4j-ext/src/main/java/org/slf4j/profiler/Profiler.java
+[2026-04-08T14:41:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.6 files_done=14 resolved=365 errors=2060 current=slf4j-migrator/src/main/java/org/slf4j/migrator/line/MultiGroupConversionRule.java
+[2026-04-08T14:42:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=17 resolved=378 errors=2118 current=slf4j-api/src/main/java/org/slf4j/impl/StaticLoggerBinder.java
+[2026-04-08T14:42:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=19 resolved=409 errors=2226 current=slf4j-android/src/main/java/org/slf4j/impl/AndroidLoggerFactory.java
+[2026-04-08T14:43:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=22 resolved=425 errors=2317 current=slf4j-simple/src/test/java/org/slf4j/InvocationTest.java
+[2026-04-08T14:43:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=26 resolved=432 errors=2421 current=slf4j-api/src/main/java/org/slf4j/LoggerFactory.java
+[2026-04-08T14:44:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=28 resolved=465 errors=2582 current=slf4j-migrator/src/test/java/org/slf4j/migrator/line/TrivialMatcherTest.java
+[2026-04-08T14:45:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=30 resolved=468 errors=2707 current=slf4j-migrator/src/main/java/org/slf4j/migrator/RuleSetFactory.java
+[2026-04-08T14:46:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=36 resolved=494 errors=2821 current=integration/src/test/java/org/slf4j/issues/Issue324Test.java
+[2026-04-08T14:46:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=40 resolved=522 errors=2931 current=slf4j-ext/src/test/java/org/slf4j/dummyExt/EventLoggerTest.java
+[2026-04-08T14:47:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=43 resolved=547 errors=3073 current=slf4j-migrator/src/test/java/org/slf4j/migrator/line/JCLRuleSetTest.java
+[2026-04-08T14:48:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=45 resolved=616 errors=3172 current=slf4j-nop/src/test/java/org/slf4j/InvocationTest.java
+[2026-04-08T14:48:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=48 resolved=649 errors=3273 current=slf4j-migrator/src/main/java/org/slf4j/migrator/ProjectConverter.java
+[2026-04-08T14:48:52Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=19.9 files_completed=50 new_files_this_iter=50 mem_mb=844 MB
+[2026-04-08T14:48:52Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz triples=22042
+[2026-04-08T14:48:53Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-08T14:48:53Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1193 elapsed_min=19.9 files_completed=50
