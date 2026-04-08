@@ -1,0 +1,20 @@
+[2026-04-08T15:05:08Z] === ENRICH ITERATION 3 START | repo=qos-ch/slf4j sha=6b7721b5 ===
+[2026-04-08T15:05:08Z] [iter=3] PHASE START: enrich repo=qos-ch/slf4j sha=6b7721b5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6b7721b5-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz
+[2026-04-08T15:05:12Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-08T15:05:19Z] [iter=3] AST store loaded triples=864238 load_secs=7 mem_mb=845 MB
+[2026-04-08T15:05:19Z] [iter=3] Step 2: Finding LSP targets mem_mb=845 MB
+[2026-04-08T15:05:21Z] [iter=3] LSP targets found call_sites=6851 imports=855 extends=51 implements=0 secs=2
+[2026-04-08T15:05:22Z] [iter=3] Loaded checkpoint partial graph triples=29076
+[2026-04-08T15:05:23Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=845 MB
+[2026-04-08T15:05:28Z] [iter=3] Position index built positions=59445 nodes_with_types=72081 secs=5 mem_mb=845 MB
+[2026-04-08T15:05:28Z] [iter=3] Step 3: Starting LSP resolution mem_mb=845 MB already_completed_types=[] already_completed_files=100
+[2026-04-08T15:05:28Z] [iter=3] Resolving target type target_type=call_site count=6851
+[2026-04-08T15:05:45Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=log4j-over-slf4j/src/main/java/org/apache/log4j/NDC.java
+[2026-04-08T15:06:19Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=4 resolved=6 errors=57 current=integration/src/test/java/org/slf4j/IncompatibleMultiBindingAssertionTest.java
+[2026-04-08T15:06:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=14 resolved=46 errors=147 current=slf4j-migrator/src/main/java/org/slf4j/migrator/line/JULRuleSet.java
+[2026-04-08T15:07:22Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=26 resolved=84 errors=234 current=slf4j-migrator/src/main/java/org/slf4j/migrator/line/EmptyRuleSet.java
+[2026-04-08T15:07:53Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=39 resolved=106 errors=322 current=integration/src/test/java/org/slf4j/StringPrintStream.java
+[2026-04-08T15:08:14Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=3.1 files_completed=150 new_files_this_iter=50 mem_mb=845 MB
+[2026-04-08T15:08:14Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz triples=31970
+[2026-04-08T15:08:15Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-04-08T15:08:15Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=186 elapsed_min=3.1 files_completed=150
