@@ -48519,6 +48519,65 @@
         "blob/5d64624975de0341decac41cca64ce25f0a97b42.nq.gz",
         "blob/05d5a97583c73d9927c792a874fa5755370fb8e9.nq.gz",
         "blob/8187e7e06a47da53f5769f71b0ec80295ab9998b.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.10",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-jdk14",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "ch.qos.cal10n:cal10n-api",
+          "ecosystem": "MAVEN",
+          "version": "0.8.1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "cal10n",
+          "githubCommit": "3dd668da2c610c9da32f2d4b3115644577574f12",
+          "githubTag": "v_0.8.1",
+          "githubUrl": "https://github.com/qos-ch/cal10n",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.desktop:javax.swing",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
