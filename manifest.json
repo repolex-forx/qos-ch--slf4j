@@ -48578,7 +48578,12 @@
           "githubRepo": "jdk",
           "source": "stdlib:java"
         }
-      ]
+      ],
+      "ast": [
+        "aggregate/ast/6b7721b507e0d609d20cb4dfc7e7084b95cc231d/chunk-001.nq.gz"
+      ],
+      "repolex": "aggregate/repolex/6b7721b507e0d609d20cb4dfc7e7084b95cc231d/chunk-001.nq.gz",
+      "dep": "dep/6b7721b507e0d609d20cb4dfc7e7084b95cc231d.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
